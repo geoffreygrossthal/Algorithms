@@ -38,7 +38,7 @@ public class TortoiseAndHare {
     //Time complexity of O(n) and a space complexity of O(1)
     public boolean hasCycle(ListNode head) {
             
-        //If empty or only contains one node, it can not contain cycle
+        //If empty or next is null there is no cycle
         if (head == null || head.next == null)
             return false;
 
