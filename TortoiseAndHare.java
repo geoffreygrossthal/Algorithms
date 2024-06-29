@@ -12,12 +12,7 @@ hare engage in a race. The algorithm works by using two pointers, often referred
 moves forward one node at a time, while the hare moves forward two nodes at a time.
 
 Space and time complexity:
-The "tortoise" pointer moves one step at a time, so it takes O(n) time to reach the cycle.
-Once both pointers are inside the cycle, the "hare" pointer moves twice as fast as the "tortoise" 
-pointer. Therefore, the time taken for the "hare" pointer to catch up to the "tortoise" pointer is 
-proportional to the number of nodes in the cycle, which is O(k).
-Overall, the time complexity is O(n + k).
-
+The "tortoise" pointer moves one step at a time, so it takes O(n) time worst case.
 The space complexity of the algorithm is O(1), meaning it uses constant extra space regardless of the size of the linked lis
 */
 
